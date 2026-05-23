@@ -24,31 +24,29 @@ Built to understand how real-world regression models actually work 🔍
 - 📦 requirements.txt → dependencies  
 
 ---
+🚀 How to Run in VS Code 
 
-## 🚀 How to Run
+1️⃣ Open project
+Open VS Code
+Click File → Open Folder
+Select House-Price-Prediction
+2️⃣ Create & activate virtual environment
+python -m venv venv
 
-### 1️⃣ Clone this repo
-```bash
-git clone https://github.com/Bhavana-ramesh380/House-Price-Prediction.git
+👉 Activate:
 
- Go inside folder
-cd House-Price-Prediction
- Install dependencies
+venv\Scripts\activate   # Windows
+source venv/bin/activate  # Mac/Linux
+3️⃣ Install dependencies
 pip install -r requirements.txt
- 
+4️⃣ Run project
+Open housepriceprediction.ipynb
+Select kernel → Python environment
+Click Run All
+(Optional) Run .py file
+python app.py
 
-📊 What this project does
 
-✨ Cleans and prepares raw data
-✨ Trains a regression model
-✨ Makes price predictions
-✨ Saves model for reuse
-
-🔮 Result
-
-✔️ Predicts house prices based on inputs
-✔️ Works on trained ML regression model
-✔️ Simple but effective pipeline
-
+You can now train and test the model in VS Code.
 
 
